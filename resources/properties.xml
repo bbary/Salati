@@ -1,0 +1,39 @@
+<resources>
+
+    <properties>
+        <property id="api_url" type="string"></property>
+        <property id="duhr_time" type="string"></property>
+        <property id="asr_time" type="string"></property>
+        <property id="icha_time" type="string"></property>
+        <property id="adjust_hijri" type="number">-1</property>
+    </properties>
+
+    <strings>
+       <string id="number_title">Number</string>
+       <string id="long_title">Long</string>
+       <string id="float_title">Float</string>
+       <string id="double_title">Double</string>
+       <string id="string_title">String</string>
+       <string id="boolean_title">Boolean</string>
+    </strings>
+
+
+    <settings>
+        <setting propertyKey="@Properties.api_url" title="API URL">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.duhr_time" title="DUHR FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.asr_time" title="ASR FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>      
+        <setting propertyKey="@Properties.icha_time" title="ICHA FIXED TIME">
+            <settingConfig type="alphaNumeric" />
+        </setting>                    
+
+        <setting propertyKey="@Properties.adjust_hijri" title="HIJRI ADJUST">
+            <settingConfig type="numeric" />
+        </setting>
+    </settings>
+</resources>
