@@ -1,7 +1,7 @@
 # Salati
-Muslim Prayer times
+Prayer times
 
-Garmin watch app Muslim Prayer times with  hijri date in arabic.
+Garmin watch app Prayer times with  hijri date in arabic.
 
 I used Aladhan.com API to get prayers time each day, you need to have internet (bleutooth connexion to your phone, or wifi) to work. 
 
